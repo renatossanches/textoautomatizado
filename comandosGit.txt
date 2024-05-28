@@ -38,5 +38,7 @@ enter
 modificando um commit atual com as alterações salvas atuais
 git status
 git reset --soft HEAD~1 >> soft nao apaga as modificações
-=======
->>>>>>> 06c891e252187523e4ce8432602b02c1a0623541
+git reset --hard HEAD~1 >> exclui o anterior apenas local.
+
+git push - f>> força a sobreescrever o remoto
+git push origin main>> puxa os commits do remoto
