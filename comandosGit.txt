@@ -1,0 +1,39 @@
+comandos git:
+
+git add . >> adiciona todos os arquivos ao stage
+git commit -m "mensagem" -- sobe os arquivos ao commit
+git push -M >>> sobe os arquivos da v inicial ao GitHub
+git add arquivo.html >> adiciona um  arquivo em especifico ao stage
+git commit -m > sobe esse arquivo especifico
+
+git clone link do git >>>> pega os arquivos na pagina baixada
+
+git status >>> ve o status do que precisa salvar
+git log >> ve todas as versões detalhadas
+git log - oneline >> ve todas as versões em 1 linha
+
+git diff (arquivo) >>> mostra o que foi alterado e excluído no codigo
+
+
+<<voltar ao ultimo commmit>>
+git status
+git reset
+git clean -df 
+git checkout --
+
+<<editor vim>>
+<<salvando alterações>>
+i >> habilita edicao
+esq >> para escrever
+:wq >> salva e sai
+enter >> para sair
+
+<<saindo sem salvar>>
+i
+esq
+:q!
+enter
+
+modificando um commit atual com as alterações salvas atuais
+git status
+git reset --soft HEAD~1 >> soft nao apaga as modificações
