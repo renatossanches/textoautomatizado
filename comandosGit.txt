@@ -13,6 +13,7 @@ git log >> ve todas as versões detalhadas
 git log - oneline >> ve todas as versões em 1 linha
 
 git diff (arquivo) >>> mostra o que foi alterado e excluído no codigo
+<<<<<<< HEAD
 
 
 <<voltar ao ultimo commmit>>
@@ -37,3 +38,5 @@ enter
 modificando um commit atual com as alterações salvas atuais
 git status
 git reset --soft HEAD~1 >> soft nao apaga as modificações
+=======
+>>>>>>> 06c891e252187523e4ce8432602b02c1a0623541
